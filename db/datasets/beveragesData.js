@@ -18,7 +18,13 @@ let beveragesData = [
         name: "Margarita",
         ingredients: ["tequila", "lime", "Cointreau", "agave syrup"],
         alcoholic: true
+    },
+    {
+        name: "Rum & Coke",
+        ingredients: ["rum", "coke"],
+        alcoholic: true
     }
+
 ]
 
 module.exports = beveragesData;
