@@ -57,7 +57,7 @@ const drinks = [
     },
     alcoholic: true,
     isFavorite: false,
-    image: ""
+    image: "assets/drink-card-images/Cucumber-Basil-Smash.png"
   },
   {
     id: 4,
