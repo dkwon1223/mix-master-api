@@ -16,7 +16,7 @@ const drinks = [
     },
     alcoholic: true,
     isFavorite: false,
-    image: ""
+    image: "assets/drink-card-images/Blackberry Midnight Martini.png"
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const drinks = [
     },
     alcoholic: true,
     isFavorite: false,
-    image: ""
+    image: "assets/drink-card-images/Cherry Citrus Manhattan.png"
   },
   {
     id: 3,
