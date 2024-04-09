@@ -7,9 +7,11 @@ exports.up = function(knex) {
   return knex.schema 
     .createTable('beverages', function (table) {
         table.increments('id').primary();
-        table.string('name').notNullable;
-        table.specificType('ingredients', 'text ARRAY');
-        table.boolean('alcoholic');
+        table.string('name').notNullable();
+        table.specificType('ingredients', 'text ARRAY').notNullable();
+        table.specificType('directions', 'OBJECT').notNullable();
+        table.boolean('alcoholic').notNullable();
+        table.string('imageURL').notNullable();
         table.timestamps(true, true);
     })
 };
