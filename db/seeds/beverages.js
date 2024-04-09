@@ -35,7 +35,10 @@ exports.seed = async function(knex) {
       const singleBeverage = await knex('beverages').insert({
         name: beverage.name,
         ingredients: beverage.ingredients,
-        alcoholic: beverage.alcoholic
+        directions: beverage.directions,
+        alcoholic: beverage.alcoholic,
+        isFavorite: beverage.isFavorite,
+        image: beverage.image
       }, 'id');
     }
     let bevs = beveragesData.map((beverage) => {
