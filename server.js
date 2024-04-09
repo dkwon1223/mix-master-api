@@ -1,12 +1,9 @@
 const express = require('express');
 const app = express();
 
-
 const environment = process.env.NODE_ENV || 'production';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
-
-
 
 app.set('port', process.env.PORT || 10000);
 app.locals.title = "Mix Master API";
@@ -18,8 +15,7 @@ app.get('/', (request, response) => {
 app.get('/api/v1/drinks', async (request, response) => {
     try {
         const drinks = await database('beverages').select();
-        response.status(200)
-        response.json(drinks);
+        response.status(200).json(drinks);
     } catch(error) {
         response.status(500).json({error});
     }
