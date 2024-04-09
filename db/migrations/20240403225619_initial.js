@@ -11,7 +11,7 @@ exports.up = function(knex) {
         table.specificType('ingredients', 'text ARRAY').notNullable();
         table.json('directions').notNullable;
         table.boolean('alcoholic').notNullable();
-        table.boolean('favorite').notNullable();
+        table.boolean('isFavorite').notNullable();
         table.string('image').notNullable();
         table.timestamps(true, true);
     })
