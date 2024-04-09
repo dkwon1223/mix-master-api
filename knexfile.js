@@ -6,17 +6,17 @@ require('dotenv').config();
  */
 module.exports = {
 
-  development: {
-    client: 'pg',
-    connection: 'postgres://localhost/drinks',
-    migrations: {
-      directory: './db/migrations'
-    },
-    seeds: {
-      directory: './db/seeds'
-    },
-    useNullAsDefault: true
-  },
+  // development: {
+  //   client: 'pg',
+  //   connection: 'postgres://localhost/drinks',
+  //   migrations: {
+  //     directory: './db/migrations'
+  //   },
+  //   seeds: {
+  //     directory: './db/seeds'
+  //   },
+  //   useNullAsDefault: true
+  // },
 
   // staging: {
   //   client: 'postgresql',
