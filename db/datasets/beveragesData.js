@@ -1,6 +1,5 @@
 let beveragesData = [
     {
-        id: 1,
         name: "Blackberry Midnight Martini",
         ingredients: [
           "2 oz Blackberry Vodka",
@@ -19,7 +18,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/305x416q70/r/923/o3X1dK.png"
       },
       {
-        id: 2,
         name: "Cherry Citrus Manhattan",
         ingredients: [
           "2 oz Rye Whiskey",
@@ -40,7 +38,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/zgdu15.png"
       },
       {
-        id: 3,
         name: "Cucumber Basil Smash",
         ingredients: [
           "2 oz Gin",
@@ -60,7 +57,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/Lmpi2W.png"
       },
       {
-        id: 4,
         name: "Screwdriver",
         ingredients: [
           "2 oz Vodka",
@@ -78,7 +74,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/292x416q70/r/922/qYkZb7.png"
       },
       {
-        id: 5,
         name: "Campari Orange",
         ingredients: [
           "2 oz Campari",
@@ -96,7 +91,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/313x416q70/r/923/02kndX.png"
       },
       {
-        id: 6,
         name: "Rosemary Citrus Spritz",
         ingredients: [
           "1 oz Vodka",
@@ -116,7 +110,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/kpNj5I.png"
       },
       {
-        id: 7,
         name: "Spicy Raspberry Martini",
         ingredients: [
           "2 oz Raspberry Vodka",
@@ -136,7 +129,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/eW3tS5.png"
       },
       {
-        id: 8,
         name: "Strawberry Lavender Breeze Mimosa",
         ingredients: [
           "2 oz Strawberry Puree",
@@ -155,7 +147,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/267x416q70/r/922/xFSLeS.png"
       },
       {
-        id: 9,
         name: "Tropical Sunset Punch",
         ingredients: [
           "1 oz Rum",
@@ -177,7 +168,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/306x416q70/r/922/Wt5MFv.png"
       },
       {
-        id: 10,
         name: "Blackberry Bourbon Lemonade",
         ingredients: [
           "2 oz Bourbon",
@@ -199,7 +189,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/Y96Erd.png"
       },
       {
-        id: 11,
         name: "Desert Rose",
         ingredients: [
           "2 oz Tequila",
@@ -220,7 +209,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/w80mxU.png"
       },
       {
-        id: 12,
         name: "Elderflower and Pear Martini",
         ingredients: [
           "2 oz Pear Vodka",
@@ -239,7 +227,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/MIIJV6.png"
       },
       {
-        id: 13,
         name: "Ginger Mint Mojito",
         ingredients: [
           "2 oz White Rum",
@@ -261,7 +248,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/oRWdKg.png"
       },
       {
-        id: 14,
         name: "Honey Lavender Gin Fizz",
         ingredients: [
           "2 oz Gin",
@@ -282,7 +268,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/9C7596.png"
       },
       {
-        id: 15,
         name: "Pineapple Jalapeño Margarita",
         ingredients: [
           "2 oz Tequila",
@@ -304,7 +289,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/I0peq8.png"
       },
       {
-        id: 16,
         name: "Saffron Infused Gin Sour",
         ingredients: [
           "2 oz Saffron-infused Gin",
@@ -324,7 +308,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/aE6Mv7.png"
       },
       {
-        id: 17,
         name: "Blueberry Thyme Collins",
         ingredients: [
           "2 oz Gin",
@@ -345,7 +328,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/9vubh9.png"
       },
       {
-        id: 18,
         name: "Fig and Honey Old Fashioned",
         ingredients: [
           "2 oz Bourbon",
@@ -365,7 +347,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/eIb9I6.png"
       },
       {
-        id: 19,
         name: "Peppermint Patty Chocolate Martini",
         ingredients: [
           "2 oz Chocolate Liqueur",
@@ -386,7 +367,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/Efa5uO.png"
       },
       {
-        id: 20,
         name: "Smoked Maple Bourbon Chai",
         ingredients: [
           "2 oz Smoked Bourbon",
@@ -406,7 +386,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/3naNEq.png"
       },
       {
-        id: 21,
         name: "Lemon Rosemary Prosecco Fizz",
         ingredients: [
           "1 oz Limoncello",
@@ -425,7 +404,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/OXuEtg.png"
       },
       {
-        id: 22,
         name: "Vanilla Bean White Russian",
         ingredients: [
           "2 oz Vodka",
@@ -444,7 +422,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/0gqa8C.png"
       },
       {
-        id: 23,
         name: "Sage and Grapefruit Negroni",
         ingredients: [
           "1 oz Gin",
@@ -465,7 +442,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/PGPK4u.png"
       },
       {
-        id: 24,
         name: "Pear and Cinnamon Cider Sangria",
         ingredients: [
           "1 bottle of White Wine",
@@ -487,7 +463,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/slU07c.png"
       },
       {
-        id: 25,
         name: "Mango Habanero Margarita",
         ingredients: [
           "2 oz Tequila",
@@ -509,7 +484,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/9ovqGD.png"
       },
       {
-        id: 26,
         name: "Watermelon Basil Vodka Cooler",
         ingredients: [
           "2 oz Vodka",
@@ -531,7 +505,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/PkKuLd.png"
       },
       {
-        id: 27,
         name: "Raspberry Lime Rickey Margarita",
         ingredients: [
           "2 oz Tequila",
@@ -553,7 +526,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/DJveSX.png"
       },
       {
-        id: 28,
         name: "Matcha Green Tea Highball",
         ingredients: [
           "2 oz Whisky",
@@ -574,7 +546,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/VXczrQ.png"
       },
       {
-        id: 29,
         name: "Coconut Water and Pineapple Mojito",
         ingredients: [
           "2 oz White Rum",
@@ -595,7 +566,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/a/img923/7466/9ITmEP.png"
       },
       {
-        id: 30,
         name: "Pomegranate Anise Martini",
         ingredients: [
           "2 oz Vodka",
@@ -617,7 +587,6 @@ let beveragesData = [
       },
     
       {
-        id: 31,
         name: "Lavender Lemonade Fizz",
         ingredients: [
           "4 oz Lemonade",
@@ -636,7 +605,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/wJ85pB.png"
       },
       {
-        id: 32,
         name: "Tropical Mango Muddle",
         ingredients: [
           "3 oz Mango Nectar",
@@ -656,7 +624,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/X8VO2c.png"
       },
       {
-        id: 33,
         name: "Cinnamon Apple Spritzer",
         ingredients: [
           "4 oz Apple Juice",
@@ -674,7 +641,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/vUJ9ad.png"
       },
       {
-        id: 34,
         name: "Ginger Peach Soother",
         ingredients: [
           "3 oz Peach Nectar",
@@ -694,7 +660,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/sFc663.png"
       },
       {
-        id: 35,
         name: "Honeydew Mint Cooler",
         ingredients: [
           "3 oz Honeydew Melon Puree",
@@ -714,7 +679,6 @@ let beveragesData = [
         image: "https://iili.io/JkWMuRV.png"
       },
       {
-        id: 36,
         name: "Berry Basil Blast",
         ingredients: [
           "3 oz Mixed Berry Puree (strawberries, raspberries, blueberries)",
@@ -734,7 +698,6 @@ let beveragesData = [
         image: "https://iili.io/JkXZLf1.png"
       },
       {
-        id: 37,
         name: "Coconut Lime Quencher",
         ingredients: [
           "4 oz Coconut Water",
@@ -753,7 +716,6 @@ let beveragesData = [
         image: "https://iili.io/JkXZWN4.png"
       },
       {
-        id: 38,
         name: "Pineapple Ginger Spark",
         ingredients: [
           "3 oz Pineapple Juice",
@@ -772,7 +734,6 @@ let beveragesData = [
         image: "https://iili.io/JkXZSHb.png"
       },
       {
-        id: 39,
         name: "Cranberry Rosemary Refresher",
         ingredients: [
           "4 oz Cranberry Juice",
@@ -791,7 +752,6 @@ let beveragesData = [
         image: "https://iili.io/JkXZQ0F.png"
       },
       {
-        id: 40,
         name: "Pomegranate Citrus Punch",
         ingredients: [
           "3 oz Pomegranate Juice",
@@ -811,7 +771,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/sEQSXT.png"
       },
       {
-        id: 41,
         name: "Watermelon Cucumber Chill",
         ingredients: [
           "3 oz Watermelon Juice",
@@ -831,7 +790,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/CDfhlA.png"
       },
       {
-        id: 42,
         name: "Elderflower Grapefruit Sipper",
         ingredients: [
           "3 oz Grapefruit Juice",
@@ -850,7 +808,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/MIIJV6.png"
       },
       {
-        id: 43,
         name: "Kiwi Melon Fizz",
         ingredients: [
           "2 oz Kiwi Puree",
@@ -870,7 +827,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/CryUFe.png"
       },
       {
-        id: 44,
         name: "Blueberry Thyme Breeze",
         ingredients: [
           "3 oz Blueberry Juice",
@@ -889,7 +845,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/a/img922/2830/2wfYKz.png"
       },
       {
-        id: 45,
         name: "Pear Vanilla Sparkle",
         ingredients: [
           "3 oz Pear Nectar",
@@ -908,7 +863,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/a/img923/5382/6MmSd8.png"
       },
       {
-        id: 46,
         name: "Raspberry Hibiscus Twist",
         ingredients: [
           "3 oz Hibiscus Tea (chilled)",
@@ -928,7 +882,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/a/img924/5176/Lb6v9t.png"
       },
       {
-        id: 47,
         name: "Golden Turmeric Tonic",
         ingredients: [
           "3 oz Turmeric and Ginger Tea (chilled)",
@@ -948,7 +901,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/wvxduP.png"
       },
       {
-        id: 48,
         name: "Cherry Limeade Chill",
         ingredients: [
           "3 oz Cherry Juice",
@@ -968,7 +920,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/922/b6Mjwy.png"
       },
       {
-        id: 49,
         name: "Strawberry Lavender Serenity",
         ingredients: [
           "3 oz Strawberry Puree",
@@ -987,7 +938,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/CnKIXN.png"
       },
       {
-        id: 50,
         name: "Sage Citrus Cooler",
         ingredients: [
           "3 oz Orange Juice",
@@ -1007,7 +957,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/a/img922/995/ldl3ux.png"
       },
       {
-        id: 51,
         name: "Blackberry Sage Fizz",
         ingredients: [
           "3 oz Blackberry Puree",
@@ -1027,7 +976,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/924/3uQbVE.png"
       },
       {
-        id: 52,
         name: "Caramelized Pineapple Swirl",
         ingredients: [
           "3 oz Caramelized Pineapple Puree",
@@ -1046,7 +994,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/a/img924/1724/HBx1u6.png"
       },
       {
-        id: 53,
         name: "Apricot Ginger Zinger",
         ingredients: [
           "3 oz Apricot Nectar",
@@ -1065,7 +1012,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/NyrC9W.png"
       },
       {
-        id: 54,
         name: "Matcha Mint Julep",
         ingredients: [
           "1 tsp Matcha Green Tea Powder",
@@ -1085,7 +1031,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/a/img924/7217/OZ4ozh.png"
       },
       {
-        id: 55,
         name: "Tangerine Rose Infusion",
         ingredients: [
           "3 oz Tangerine Juice",
@@ -1104,7 +1049,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/yNXHNn.png"
       },
       {
-        id: 56,
         name: "Cucumber Melon Mixer",
         ingredients: [
           "3 oz Honeydew Melon Puree",
@@ -1124,7 +1068,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/rjL87B.png"
       },
       {
-        id: 57,
         name: "Passion Fruit Nojito",
         ingredients: [
           "3 oz Passion Fruit Puree",
@@ -1144,7 +1087,6 @@ let beveragesData = [
         image: "https://imagizer.imageshack.com/v2/238x416q70/r/923/5oSRR0.png"
       },
       {
-        id: 58,
         name: "Spiced Pear Fauxjito",
         ingredients: [
           "3 oz Pear Juice",
@@ -1165,7 +1107,6 @@ let beveragesData = [
         image: "https://iili.io/JkhGVPn.png"
       },
       {
-        id: 59,
         name: "Lemongrass Ginger Rhapsody",
         ingredients: [
           "3 oz Lemongrass Tea (chilled)",
@@ -1184,7 +1125,6 @@ let beveragesData = [
         image: "https://iili.io/JkhGQDB.png"
       },
       {
-        id: 60,
         name: "Apple Cinnamon Seltzer",
         ingredients: [
           "3 oz Apple Cider",

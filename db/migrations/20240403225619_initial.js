@@ -9,9 +9,10 @@ exports.up = function(knex) {
         table.increments('id').primary();
         table.string('name').notNullable();
         table.specificType('ingredients', 'text ARRAY').notNullable();
-        table.specificType('directions', 'OBJECT').notNullable();
+        table.json('directions').notNullable;
         table.boolean('alcoholic').notNullable();
-        table.string('imageURL').notNullable();
+        table.boolean('favorite').notNullable();
+        table.string('image').notNullable();
         table.timestamps(true, true);
     })
 };
