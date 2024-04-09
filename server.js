@@ -16,13 +16,14 @@ app.get('/', (request, response) => {
 });
 
 app.get('/api/v1/drinks', async (request, response) => {
-    try {
-        const drinks = await database('beverages').select();
-        response.status(200)
-        response.json(drinks);
-    } catch(error) {
-        response.status(500).json({error});
-    }
+    response.send("Thirsty? Let's find a drink");
+    // try {
+    //     const drinks = await database('beverages').select();
+    //     response.status(200)
+    //     response.json(drinks);
+    // } catch(error) {
+    //     response.status(500).json({error});
+    // }
 });
 
 app.listen(app.get('port'), () => {
