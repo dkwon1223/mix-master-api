@@ -11,7 +11,7 @@ This application is the back-end server for the [Mix Master](https://github.com/
 
 ## Getting Started
 
-Please note: it is important that for personal use or exploration into this API, you set your configurations to utilize the development environment in `knexfile.js` along with your own
+PLEASE NOTE: it is important that for personal use or exploration into this API, you set your configurations to utilize the development environment in `knexfile.js` along with your own
 local Postgres database!
 
 This is due to the fact that migrations and seeds run through the production environment will impact the real data used by the front end application and AWS RDS Postgres database.
