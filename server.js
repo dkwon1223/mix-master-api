@@ -33,7 +33,7 @@ app.get('/api/v1/drinks/:id', async (request, response) => {
         const targetDrink = drinks.filter((drink) => {
             return drink.id === id
         })
-        response.status(200).json(targetDrink);
+        response.status(200).json(targetDrink[0]);
     } catch(error) {
         response.status(500).json({error});
     }
