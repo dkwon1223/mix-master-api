@@ -1,7 +1,9 @@
 # Mix Master API
 
-This app is the back-end server for the [Mix Master](https://github.com/lalonggone/mix-master-fe) front end React application. 
+This application is the back-end server for the [Mix Master](https://github.com/lalonggone/mix-master-fe) front end React application. 
 
+## Technologies Used
+![Express Badge](https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=flat) ![Knex.js Badge](https://img.shields.io/badge/Knex.js-D26B38?logo=knexdotjs&logoColor=fff&style=flat) ![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=flat) 
 ## Getting started
 
 Please note: it is important that for personal use or exploration into this API, you set your configurations to utilize the development environment in `knexfile.js` along with your own
