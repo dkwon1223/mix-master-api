@@ -1,6 +1,8 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 require('dotenv').config();
+app.use(cors());
 
 const environment = process.env.NODE_ENV || 'production';
 const configuration = require('./knexfile')[environment];
