@@ -37,6 +37,22 @@ app.get('/api/v1/drinks/:id', async (request, response) => {
     }
 });
 
+app.patch('/api/v1/drinks/:id', async (request, response) => {
+    const id = parseInt(request.params.id);
+    const changes = request.body;
+    try {
+        const updatedCount = await database('beverages').where("id", id).update(changes);
+        if (updatedCount > 0) {
+            response.status(200).json({ message: "Record updated successfully" });
+        } else {
+            response.status(404).json({ message: "Record not found" });
+        }
+    } catch (error) {
+        console.error(error);
+        response.status(500).json({ message: "Error updating record", error: error.message });
+    }
+});
+
 app.listen(app.get('port'), () => {
     console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
 });
