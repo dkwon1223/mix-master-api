@@ -18,6 +18,7 @@ module.exports = {
         rejectUnauthorized: false
       }
     },
+    acquireConnectionTimeout: 10000,
     pool: {
       min: 2,
       max: 10
